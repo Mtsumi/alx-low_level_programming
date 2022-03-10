@@ -1,0 +1,1 @@
+This directory includes the first practical C lesson
