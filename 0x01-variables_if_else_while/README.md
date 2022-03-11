@@ -1,0 +1,1 @@
+This new directory is about including variables and loops
