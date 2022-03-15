@@ -1,4 +1,4 @@
-l/**
+/**
  * File: 0-putchar.c
  * Auth: Aly Mtsumi
  *
