@@ -1,15 +1,9 @@
-/**
- * File: 0-putchar.c
- * Auth: Aly Mtsumi
- *
-**/
-
 #include "main.h"
 
 /**
- * main - Prints _putchar.
+ * * main - Prints _putchar.
  *
- * Return: Always 0.
+ * * Return: Always 0.
 **/
 int main(void)
 {
