@@ -1,10 +1,8 @@
 /*
  * author: Aly mtsumi
  *
- * File: 0-strcat.c
- *
+ * File: 0-strcat.c*
  */
-
 #include "main.h"
 /**
  * *_strcat - concatenates two strings
@@ -15,17 +13,21 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int a = -1, i;
+/*initializing the return value contecated*/
 
-	for (i = 0; dest[i] != '\0'; i++)
+	char *contecated = dest;
 
-		do {
-			a++;
-			dest[i] = src[a];
-			i++;
-		while
-			(src[a] != '\0');
-	}
+	/*going to end of dest */
+	while (*dest)
+		dest++;
 
-	return (dest);
+	/*adding *src characters to dest */
+	while (*src)
+		*dest++ = *src++;
+
+	/*adding terminating null byte to dest */
+	*dest = '\0';
+
+	return (contecated);
+
 }
