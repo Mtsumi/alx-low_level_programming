@@ -1,1 +1,1 @@
-This repo includes a static library of my own
+This is a repo on Static libraries
