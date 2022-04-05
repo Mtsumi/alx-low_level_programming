@@ -27,11 +27,13 @@ int main(int argc, char *argv[])
 		printf("%d", 0);
 	}
 
-	if ( typeof(atoi(argv[i])) !== int)
+	if ((atoi(argv[i])) !== int)
 			{
 			printf("Error");
 			}
+	else{
 		printf("%d\n", sum);
+	}
 	}
 return (0);
 }
