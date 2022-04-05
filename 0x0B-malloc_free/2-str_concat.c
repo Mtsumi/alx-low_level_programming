@@ -20,6 +20,7 @@ char *str_concat(char *s1, char *s2)
 	int i;
 	int j = 0;
 	char *s3;
+
 	len_s1 = (s1 == NULL) ? 0 : _strlen(s1);
 	len_s2 = (s2 == NULL) ? 0 : _strlen(s2);
 
