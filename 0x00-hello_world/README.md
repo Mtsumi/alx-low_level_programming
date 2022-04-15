@@ -37,9 +37,7 @@ Example: If the C file is main.c, the result is main.s.
 
 4. Hello, puts
 
-
-
-4-puts.c: C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line, using the function puts.
+4-puts.c: C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line, using the function puts which automatically prints with a new line.
 
 5. Hello, printf
 
