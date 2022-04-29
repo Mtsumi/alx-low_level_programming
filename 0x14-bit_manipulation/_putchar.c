@@ -3,8 +3,9 @@
 /**
  * _putchar - a function that prints a character to stdout
  * @c : character to be printed
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately
  *
- * Return - an integer with the write function
  */
 int _putchar(char c)
 {
