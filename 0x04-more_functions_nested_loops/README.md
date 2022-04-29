@@ -4,7 +4,7 @@ The following are user defined functions with their descriptions.
 
 0-isupper.c  checks for uppercase character 
 
-1-isdigit.c checks for a digit (0 through 9)
+1-isdigit.c checks for a digit (0 through 9) returns 1 if it is a digit, returns 0 otherwise.
 
 2-mul.c  multiplies two integer
 
