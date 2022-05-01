@@ -1,3 +1,4 @@
 #!/bin/bash
-p-$(printf "\x48\x6F\x6C\x04")
+-$(printf "\x48\x6F\x6C\^D")
 echo $p > 101-password
+
