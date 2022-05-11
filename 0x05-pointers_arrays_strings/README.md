@@ -11,9 +11,13 @@
 - 1-swap.c
 > This file includes a function that swaps the values of two integers using the prototype __void swap_int(int *a, int *b);__.
 
-###__2. This report, by its very length, defends itself against the risk of being read__
+### __2. This report, by its very length, defends itself against the risk of being read__
 
 - 2-strlen.c
 > This file contains a function that returns the length of a string using the prototype __int _strlen(char *s);__.
 
-### __
+### __3. I do not fear computers. I fear the lack of them__
+
+- 3-puts.c
+> This file includes a function that prints a string, followed by a new line, to stdout using the prototype __void _puts(char *str);__.
+This prototype uses another prototype __ _putchar(char s);__ which uses write function __write(1, &c, 1);__ to print the string by traversing throughout the string from index 0 until meets the \0 character.
