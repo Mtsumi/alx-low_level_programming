@@ -4,4 +4,4 @@
 >0. **98 Battery st.**
 
 *0-reset_to_98.c
->This file contains a prototype **void reset_to_98(int *n);** that takes a pointer to an int as parameter and updates the value it points to to 98.
+>This file contains a prototype __void reset_to_98(int *n);__ that takes a pointer to an int as parameter and updates the value it points to to 98.
