@@ -1,7 +1,7 @@
 # __This directory contains tasks that explore pointers, strings and memory allocation__
 ## >>**Tasks**
 
-### __0. **98 Battery st.__
+### __0. 98 Battery st.__
 
 - 0-reset_to_98.c
 >This file contains a prototype __void reset_to_98(int *n);__ that takes a pointer to an int as parameter and updates the value it points to to 98.
@@ -10,3 +10,10 @@
 
 - 1-swap.c
 > This file includes a function that swaps the values of two integers using the prototype __void swap_int(int *a, int *b);__.
+
+###__2. This report, by its very length, defends itself against the risk of being read__
+
+- 2-strlen.c
+> This file contains a function that returns the length of a string using the prototype __int _strlen(char *s);__.
+
+### __
