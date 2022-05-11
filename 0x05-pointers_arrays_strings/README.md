@@ -1,5 +1,5 @@
 # __This directory contains tasks that explore pointers, strings and memory allocation__
-## >> **Tasks**
+## >> __Tasks__
 
 # __0. 98 Battery st.__
 
