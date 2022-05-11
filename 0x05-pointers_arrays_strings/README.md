@@ -20,4 +20,4 @@
 
 - 3-puts.c
 > This file includes a function that prints a string, followed by a new line, to stdout using the prototype __void _puts(char *str);__.
-This prototype uses another prototype __ _putchar(char s);__ which uses write function __write(1, &c, 1);__ to print the string by traversing throughout the string from index 0 until meets the \0 character.
+This prototype uses another prototype **_putchar(char s);** which uses write function __write(1, &c, 1);__ to print the string by traversing throughout the string from index 0 until the pointer evaluates to the NULL character.
