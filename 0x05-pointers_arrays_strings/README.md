@@ -1,7 +1,7 @@
-# __This directory contains tasks that explore pointers, strings and memory allocation__
+# __0x05-pointers_arrays_strings: This directory contains tasks that explore pointers, strings and memory allocation__
 ## >> __Tasks__
 
-# __0. 98 Battery st.__
+### __0. 98 Battery st.__
 
 - 0-reset_to_98.c
 >This file contains a prototype __void reset_to_98(int *n);__ that takes a pointer to an int as parameter and updates the value it points to to 98.
