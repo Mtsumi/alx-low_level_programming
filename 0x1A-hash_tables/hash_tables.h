@@ -16,9 +16,9 @@
  */
 typedef struct hash_node_s
 {
-    char *key;
-    char *value;
-    struct hash_node_s *next;
+	char *key;
+	char *value;
+	struct hash_node_s *next;
 } hash_node_t;
 
 /**
@@ -31,8 +31,8 @@ typedef struct hash_node_s
  */
 typedef struct hash_table_s
 {
-    unsigned long int size;
-    hash_node_t **array;
+	unsigned long int size;
+	hash_node_t **array;
 } hash_table_t;
 
 hash_table_t *hash_table_create(unsigned long int size);
@@ -61,11 +61,11 @@ void free_list(hash_node_t *head);
  */
 typedef struct shash_node_s
 {
-    char *key;
-    char *value;
-    struct shash_node_s *next;
-    struct shash_node_s *sprev;
-    struct shash_node_s *snext;
+	char *key;
+	char *value;
+	struct shash_node_s *next;
+	struct shash_node_s *sprev;
+	struct shash_node_s *snext;
 } shash_node_t;
 
 /**
@@ -80,10 +80,10 @@ typedef struct shash_node_s
  */
 typedef struct shash_table_s
 {
-    unsigned long int size;
-    shash_node_t **array;
-    shash_node_t *shead;
-    shash_node_t *stail;
+	unsigned long int size;
+	shash_node_t **array;
+	shash_node_t *shead;
+	shash_node_t *stail;
 } shash_table_t;
 
 shash_table_t *shash_table_create(unsigned long int size);
@@ -95,7 +95,8 @@ void shash_table_delete(shash_table_t *ht);
 
 int replace_value_s(shash_node_t **ht, const char *key, const char *value);
 int check_key_s(shash_node_t *ht, const char *key);
-shash_node_t *add_node_s(shash_node_t **head, const char *key, const char *value);
+shash_node_t *add_node_s(shash_node_t **head,
+						 const char *key, const char *value);
 void insert_sort(shash_node_t *node, shash_table_t *ht);
 void free_list_s(shash_node_t *head);
 
